@@ -1,3 +1,5 @@
 spring:
   profiles:
     active: @test_env@
+server:
+  port: 8088
