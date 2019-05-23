@@ -16,6 +16,6 @@ public class IndexController {
     @RequestMapping("/index")
     public String index(){
 
-        return "此时的环境为:" + ENV;
+        return "此时的环境为:" + ENV + "测试选择分支后自动化部署";
     }
 }
